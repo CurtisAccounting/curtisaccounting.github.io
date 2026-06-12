@@ -22,32 +22,12 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+    min-height: 50px;
 }
 
 .social-links {
     display: flex;
     gap: 1rem;
-}
-
-.linkedin-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: #0a66c2;
-    color: white;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.linkedin-btn:hover {
-    background-color: #084fa0;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Banner Section */
@@ -190,6 +170,32 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+.linkedin-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-btn-large {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: #0a66c2;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 3rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.linkedin-btn-large:hover {
+    background-color: #084fa0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .about-text {
