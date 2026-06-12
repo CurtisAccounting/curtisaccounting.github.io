@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Bookkeeping Business</title>
+    <title>Curtis Accounting - Bookkeeping Services</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Header/Navigation -->
@@ -13,6 +14,11 @@
         <nav class="navbar">
             <div class="logo">
                 <img src="images/logo.png" alt="Company Logo">
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/joely-curtis-9798403b8/" target="_blank" class="linkedin-btn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </nav>
     </header>
@@ -22,13 +28,20 @@
         <img src="images/banner.png" alt="Banner">
     </section>
 
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <p class="testimonial-text">"Joely transformed our bookkeeping and gave us a clear picture of how our business was really performing"</p>
+    </section>
+
     <!-- First Section: Two Column Layout -->
     <section class="two-column">
         <div class="column">
             <h2>Who We Work With</h2>
             <ul>
-                <li>Trades</li>
                 <li>Sole Traders</li>
+                <li>Limited Companies</li>
+                <li>Trades & Construction</li>
+                <li>Service-Based Businesses</li>
                 <li>Small Businesses</li>
             </ul>
         </div>
@@ -52,19 +65,25 @@
                 <img src="images/photo.jpg" alt="Why Choose Us">
             </div>
             <div class="text-column">
-                <ul>
-                    <li>5+ years experience</li>
-                    <li>Specialist in trades</li>
-                    <li>HMRC compliant</li>
-                    <li>Fixed monthly pricing</li>
+                <ul class="checkmark-list">
+                    <li>AAT qualified</li>
+                    <li>5+ years experience in practice</li>
+                    <li>Quickbooks & Xero certified</li>
+                    <li>Corporation Tax, VAT, & CIS experience</li>
                 </ul>
             </div>
         </div>
     </section>
 
+    <!-- About Me Section -->
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>Hi, I'm Joely Curtis, founder of Curtis Accounting. I help business owners stay on top of their bookkeeping, VAT and CIS requirements so they can focus on running their business.</p>
+    </section>
+
     <!-- Call to Action Section with Contact Form -->
     <section class="cta-section">
-        <h2>Let us take care of your books so you can focus on your work</h2>
+        <h2>Accurate bookkeeping and accounts support to help your business grow</h2>
         
         <div class="form-container">
             <!-- Success Message -->
@@ -100,8 +119,10 @@
                     <label for="business">Business Type *</label>
                     <select id="business" name="business" data-fs-field required>
                         <option value="">-- Select --</option>
-                        <option value="Trades">Trades</option>
                         <option value="Sole Trader">Sole Trader</option>
+                        <option value="Limited Company">Limited Company</option>
+                        <option value="Trades & Construction">Trades & Construction</option>
+                        <option value="Service-Based Business">Service-Based Business</option>
                         <option value="Small Business">Small Business</option>
                         <option value="Other">Other</option>
                     </select>
@@ -121,7 +142,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; 2025 Curtis Accounting. All rights reserved.</p>
     </footer>
 
     <!-- Formspree AJAX Library -->
